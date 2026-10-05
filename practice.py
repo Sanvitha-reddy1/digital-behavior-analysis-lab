@@ -1,11 +1,11 @@
 import random
 import datetime
-#print(random.seed.__doc__)
-
-#print(datetime.timedelta.__doc__)
+import numpy as np
 
 x = 10
 
 p = datetime.datetime.now()
 q = datetime.timedelta(days = x)
 print(p+q)
+
+help(np)
